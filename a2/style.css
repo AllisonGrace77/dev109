@@ -44,7 +44,9 @@
  font-family: 'UniqueRegular'; 
  font-weight: normal; 
  font-style: normal; 
-
+}
+#clear{
+clear:both; 
 }
 img {
  margin-left: 5px;
