@@ -29,7 +29,7 @@
  margin-right:10%;
  margin-bottom:5%;
  border: dashed red;
- height:auto;
+ height:max-content;
 }
 #title {
  position:fixed;
