@@ -2,7 +2,6 @@
  position:relative;
  margin-left:10%;
  margin-right:10%;
- padding:10%
 }
 .white{
  border: 1px solid black;
@@ -28,6 +27,8 @@
  margin-left:10%;
  margin-right:10%;
  margin-bottom:5%;
+ padding:10%;
+ border: dashed red;
 }
 #title {
  position:fixed;
