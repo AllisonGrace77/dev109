@@ -13,8 +13,9 @@ p {
 	font-style: normal;
     	font-size:200%;}
     i {
-	font-weight: bold;  <!-- I was having trouble seeing the difference so I bolded this as well-->
-    	color:DarkGreen;}
+	color:DarkGreen;
+	font-weight: bold;  <!-- I was having trouble seeing the difference so I bolded this as well -->
+    	}
 h2 {
 	padding: 12px;
 	line-height: 2em;}
