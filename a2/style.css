@@ -1,7 +1,8 @@
 .row{
  position:relative;
- margin-left:15%;
+ margin-left:10%;
  margin-right:10%;
+ width:100%;
 }
 .white{
  border: 1px solid black;
