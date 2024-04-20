@@ -3,20 +3,23 @@
  margin-left:10%;
  margin-right:10%;
  border: 1px solid red;
+ box-sizing: border-box;
  /*width:100%;*/
 }
 .white{
  border: 1px solid black;
- width: 10%;
+ width: 12.5%;
  height: 60px;
  background-color:white;
+ box-sizing: border-box;
  float:left;
 }
 .black{
  border: 1px solid black;
- width: 10%;
+ width: 12.5%;
  height: 60px;
  background-color:#787878;
+ box-sizing: border-box;
  float:left;
 }
 #footer {
@@ -30,6 +33,7 @@
  margin-left:10%;
  margin-right:10%;
  margin-bottom:5%;
+ box-sizing: border-box;
  /*height:480px;*/
  /*width:100%;*/
 }
