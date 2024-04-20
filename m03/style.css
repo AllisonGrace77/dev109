@@ -14,7 +14,7 @@ p {
     	font-size:200%;}
     i {
 	color:DarkGreen;
-	font-weight: bold;  <!-- I was having trouble seeing the difference so I bolded this as well -->
+	text-decoration:underline;  <!-- I was having trouble seeing the difference so I underlined this as well -->
     	}
 h2 {
 	padding: 12px;
