@@ -9,9 +9,6 @@
 		overflow: auto;}
 	#nav, #feature, #footer {
 		margin: 1%;}
-	#nav{
-		background-color: #f4eaac;
-	}
 	.column1, .column2, .column3 {
 		width: 31.3%;
 		float: left;
@@ -41,4 +38,7 @@
 		background-color: #efefef;}
 	#feature{
 		background-color: #83d6bb;
+	}
+	#nav{
+		background-color: #f4eaac;
 	}
