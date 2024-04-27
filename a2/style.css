@@ -23,7 +23,7 @@
 }
 #footer {
  position:fixed;
- top:1000px;
+ bottom:0px;
  left:0px; 
  padding:10px;
  margin:0px;
