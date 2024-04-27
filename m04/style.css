@@ -14,14 +14,31 @@
 		float: left;
 		margin: 1%;}
 	.column3 {
-		margin-right: 0%;}
+		margin-right: 0%;
+		background-color: #c32700;
+	}
+	.column2{
+		background-color: #d67524;
+	}
+	.column3{
+		background-color: #e1b80d;
+	}
 	li {
 		display: inline;
 		padding: 0.5em;}
 	#nav, #footer {
 		background-color: #efefef;
 		padding: 0.5em 0;}
+	#footer{
+		background-color: #c7ae88;
+	}
 	#feature, .article {
 		height: 10em;
 		margin-bottom: 1em;
 		background-color: #efefef;}
+	#feature{
+		background-color: #83d6bb;
+	}
+	#menu{
+		background-color: #f4eaac;
+	}
