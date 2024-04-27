@@ -15,6 +15,7 @@
 		margin: 1%;}
 	.column3 {
 		margin-right: 0%;
+		border: solid red;
 		background-color: #c32700;
 	}
 	.column2{
