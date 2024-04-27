@@ -42,3 +42,8 @@
 	#nav{
 		background-color: #f4eaac;
 	}
+	img{
+		z:10;
+		width:150px;
+		height:auto;
+	}
