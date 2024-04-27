@@ -18,7 +18,7 @@
  width: 12.5%;
  height: 60px;
  background-color:#787878;
- box-sizing: border-box;
+ box-sizing: border-box; 
  float:left;
 }
 #footer {
