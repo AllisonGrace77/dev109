@@ -7,6 +7,14 @@
 		background-repeat: no-repeat;
 		width: 90%;
 		margin: 0 auto;}
+	.bubblegum-sans-regular {
+  		font-family: "Bubblegum Sans", sans-serif;
+  		font-weight: 400;
+  		font-style: normal;
+		}
+	h1{
+		font-family: "Bubblegum Sans", sans-serif;
+	}
 	#content {
 		overflow: auto;}
 	#nav, #feature, #footer {
