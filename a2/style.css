@@ -38,7 +38,8 @@
  margin-bottom:6%;
  box-sizing: border-box;
  height:420px;
- border:red dashed;
+ display:flex;
+ align-items: center;
 }
 #title {
  position:fixed;
