@@ -3,6 +3,7 @@
  box-sizing: border-box;
  height:12.5%;
  width:100%;
+ border: blue solid;
 }
 .white{
  border: 1px solid black;
@@ -11,6 +12,7 @@
  background-color:white;
  box-sizing: border-box;
  float:left;
+ border: green dashed;
 }
 .black{
  border: 1px solid black;
@@ -19,6 +21,7 @@
  background-color:#787878;
  box-sizing: border-box; 
  float:left;
+ border: green dashed;
 }
 #footer {
  position:fixed;
