@@ -50,14 +50,14 @@
 		background-color: #efefef;}
 	#feature{
 		background-color: #83d6bb;
-		border:blue solid;
 	}
 	#nav{
 		background-color: #f4eaac;
 	}
 	img{
 		position:absolute;
-		right:20px
+		float: right;
+		right:5px
 		z:10;
 		width:150px;
 		height:auto;
