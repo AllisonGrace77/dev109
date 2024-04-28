@@ -55,6 +55,8 @@
 		background-color: #f4eaac;
 	}
 	img{
+		position:absolute;
+		right:20px
 		z:10;
 		width:150px;
 		float:right;
