@@ -5,7 +5,7 @@
 	body {
 		background-image: url("/dev109/m04/images/retroLines2.jpg");
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 100%, auto;
 		width: 90%;
 		margin: 0 auto;}
 	.bubblegum-sans-regular {
