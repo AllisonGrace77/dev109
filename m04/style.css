@@ -57,5 +57,6 @@
 	img{
 		z:10;
 		width:150px;
+		float:right;
 		height:auto;
 	}
