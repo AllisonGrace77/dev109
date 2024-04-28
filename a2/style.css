@@ -38,8 +38,9 @@
  margin-bottom:6%;
  box-sizing: border-box;
  height:420px;
- display:flex;
- align-items: center;
+ border:red solid;
+ /*display:flex;
+ align-items: center;*/
 }
 #title {
  position:fixed;
