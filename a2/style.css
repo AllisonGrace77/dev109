@@ -29,7 +29,7 @@
  right: 0px;
  bottom:0px;
  padding:10px;
- padding-bottom:20px;
+ padding-bottom:2vh;
  margin:0px;
  background-color: mediumTurquoise;
 }
@@ -76,4 +76,5 @@ body {
 }
 p {
  text-align:center;
+ float:top
 }
