@@ -77,10 +77,10 @@ p {
  position: absolute;
  top: -15px;
  text-align:center;
- border:red dashed;
- right:45vw;
- left:45vw
- width:10vw;
+ border:blue dashed;
+ right:42vw;
+ left:42vw
+ width:16vw;
  height:auto;
  
 }
