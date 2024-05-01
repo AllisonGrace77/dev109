@@ -76,8 +76,7 @@ body {
 p {
  position: absolute;
  top: -15px;
- text-align:center;
- border:blue dashed;
+ text-align:left;
  right:42vw;
  left:42vw
  width:16vw;
