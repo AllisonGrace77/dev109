@@ -75,7 +75,8 @@ body {
 }
 p {
  position: absolute;
- top: -20px;
+ top: -15px;
  text-align:center;
  border:red dashed;
+ 
 }
