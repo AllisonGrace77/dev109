@@ -35,17 +35,17 @@
 }
 #container {
  position:fixed;
- margin-top:10vh;
- margin-left:14vw;
- margin-right:14vw;
- margin-bottom:10vh;
+ top:10vh;
+ left:14vw;
+ right:14vw;
+ bottom:10vh;
  box-sizing: border-box;
  display: flex;
  flex-direction: column;
  align-items: flex-start;
  height:80vh;
  width:72%;
- border:blue solid;
+ border:green solid;
 }
 #title {
  box-sizing: border-box;
@@ -73,8 +73,8 @@ img {
 body {
  background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
  /*padding-top: 50px;*/
- height:100%;
- width:100%;
+ height:100vh;
+ width:100vw;
 }
 p {
  text-align:center;
