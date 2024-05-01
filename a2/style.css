@@ -45,7 +45,6 @@
  align-items: flex-start;
  height:80vh;
  width:72%;
- border:green solid;
 }
 #title {
  box-sizing: border-box;
@@ -76,5 +75,6 @@ body {
 }
 p {
  text-align:center;
- float:top
+ position: absolute;
+ top: -20px;
 }
