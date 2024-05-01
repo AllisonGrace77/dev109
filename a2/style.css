@@ -40,9 +40,9 @@
  margin-right:14vh;
  margin-bottom:6vh;
  box-sizing: border-box;
- display: flex;
+ /*display: flex;
  flex-direction: column;
- align-items: flex-start;
+ align-items: flex-start;*/
  height:70vh;
  border:red solid;
 }
