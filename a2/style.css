@@ -35,10 +35,10 @@
 }
 #container {
  position:fixed;
- margin-top:12%;
+ margin-top:6%;
  margin-left:14%;
  margin-right:14%;
- margin-bottom:12%;
+ margin-bottom:6%;
  box-sizing: border-box;
  display: flex;
  flex-direction: column;
