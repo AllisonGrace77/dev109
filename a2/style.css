@@ -78,6 +78,9 @@ p {
  top: -15px;
  text-align:center;
  border:red dashed;
- right:50vw;
- right:-40px;
+ right:45vw;
+ left:45vw
+ width:10vw;
+ height:auto;
+ 
 }
