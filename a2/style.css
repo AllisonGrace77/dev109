@@ -77,9 +77,10 @@ p {
  position: absolute;
  top: -15px;
  text-align:right;
- right:42vw;
- left:42vw;
- width:16vw;
+ right:40vw;
+ left:40vw;
+ width:20vw;
  height:auto;
+ border:red;
  
 }
