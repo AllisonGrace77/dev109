@@ -43,8 +43,8 @@
  /*display: flex;
  flex-direction: column;
  align-items: flex-start;*/
- height:100vh;
- width:100%;
+ height:88vh;
+ width:72%;
  border:green solid;
 }
 #title {
