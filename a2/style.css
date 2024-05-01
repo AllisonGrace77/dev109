@@ -34,6 +34,7 @@
  background-color: mediumTurquoise;
 }
 #container {
+ position:fixed;
  margin-top:12%;
  margin-left:14%;
  margin-right:14%;
