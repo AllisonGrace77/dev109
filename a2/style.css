@@ -44,6 +44,7 @@
  flex-direction: column;
  align-items: flex-start;
  height:70%;
+ border:red solid;
 }
 #title {
  position:fixed;
