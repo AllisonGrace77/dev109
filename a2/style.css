@@ -76,11 +76,10 @@ body {
 p {
  position: absolute;
  top: -15px;
- text-align:right;
+ text-align:center;
  right:43vw;
  left:43vw;
  width:14vw;
  height:auto;
- border:red;
  
 }
