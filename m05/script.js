@@ -1,4 +1,11 @@
-var table = prompt("Enter an integer between 0 and 10");             // Unit of table
+var table;
+var valid = false; // Unit of table
+while(valid === false){
+  var temp = prompt("Enter an integer between 0 and 10");
+  if((0>temp)&&(10<temp)&&(temp%1===0)){
+    valid=true;
+  }
+}
 var operator = 'multiplication'; // Type of calculation
 var i = 1;                 // Set counter to 1
 var msg = '<h2>Multiplication Table</h2>';// Message
