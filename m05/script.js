@@ -2,7 +2,7 @@ var table;
 var valid = false; // Unit of table
 while(valid === false){
   var temp = prompt("Enter an integer between 0 and 10");
-  if((0>temp)&&(10<temp)&&(temp%1===0)){
+  if((0<=temp)&&(10>=temp)&&(temp%1===0)){
     valid=true;
   }
 }
