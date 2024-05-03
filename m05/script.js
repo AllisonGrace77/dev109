@@ -1,8 +1,8 @@
-var table;
-var valid = false; // Unit of table
+var table;  // Unit of table
+var valid = false; 
 while(valid === false){
   var temp = prompt("Enter an integer between 0 and 10");
-  if((0<=temp)&&(10>=temp)&&(temp%1===0)){
+  if((0<=temp)&&(10>=temp)&&(Number.isInteger(temp))){
     valid=true;
   }
 }
