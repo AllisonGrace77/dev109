@@ -1,3 +1,6 @@
+//var button = document.getElementById("myButton");
+//button.addEventListener("click", createRhombus());
+
 function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
 up(pHeight, pColorEven, pColorOdd, pSymbol);
 down(pHeight, pColorEven, pColorOdd, pSymbol);
