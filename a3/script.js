@@ -31,7 +31,8 @@ rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
 rLine +="</p>";
 // console.log(rLine);
 
-	
+}	
+document.getElementById("upLeft").innerHTML = rLine;
 }
 
 function upRight(pHeight, pColorEven, pColorOdd, pSymbol){
@@ -76,7 +77,8 @@ rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
 }
 rLine +="</p>";
 // console.log(rLine);
-
+}
+document.getElementById("downLeft").innerHTML = rLine;
 }
 	
 function downRight(pHeight, pColorEven, pColorOdd, pSymbol){
