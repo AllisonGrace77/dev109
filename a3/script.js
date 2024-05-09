@@ -18,7 +18,7 @@ for (i=1;i<=pHeight;i++){
 	for(j=0;j<pHeight;j++){
 		if(j<(height-i))
 		//should the symbol be white
-			rLine +="<span style='color:" + #ffffff + ";'>" + pSymbol +"</span>";
+			rLine +="<span style='color: #ffffff;'>" + pSymbol +"</span>";
 		
 		//Is the position even or odd so we change the color
 		else if (j%2)
@@ -51,7 +51,7 @@ for (i=pHeight;i > 0;i--){
 	for(j=0;j<pHeight;j++){
 		if(j<(height-i))
 		//should the symbol be white
-			rLine +="<span style='color:" + #ffffff + ";'>" + pSymbol +"</span>";
+			rLine +="<span style='color: #ffffff ;'>" + pSymbol +"</span>";
 		
 		//Is the position even or odd so we change the color
 		else if (j%2)
