@@ -25,7 +25,7 @@ for (i=1;i<=pHeight;i++){
 		//odd
 			rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
 		}
-	for(k=0;k<i-1;k++){
+	for(k=0;k<i;k++){
 		if (k%2)
 		//even
 			rLine +="<span style='color:" + pColorEven + ";'>" + pSymbol +"</span>";
@@ -57,7 +57,7 @@ for (i=pHeight;i > 0;i--){
 		//odd
 			rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
 		}
-	for(k=0;k<i-1;k++){
+	for(k=0;k<i;k++){
 		//Is the position even or odd so we change the color
 		if (k%2)
 		//even
