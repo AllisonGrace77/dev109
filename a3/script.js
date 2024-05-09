@@ -31,8 +31,7 @@ for (i=1;i<=pHeight;i++){
 			rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
 		}
 	rLine +="</p>\n";
-	console.log(rLine);
-	}
+	//console.log(rLine);
 }
 document.getElementById("up").innerHTML = rLine;
 }
@@ -65,7 +64,7 @@ for (i=pHeight;i > 0;i--){
 			rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
 		}
 	rLine +="</p>\n";
-	console.log(rLine);
+	//console.log(rLine);
 	}
 document.getElementById("down").innerHTML = rLine;
 }
