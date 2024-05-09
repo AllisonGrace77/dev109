@@ -12,7 +12,7 @@ var rLine ="";
 for (i=1;i<=pHeight;i++){
 	rLine +="<p>";
 	if(i%2===0){
-		rLine+="<span style='color: #ffffff;'> </span>" }
+		rLine+="<span style='color: #ffffff;'>&nbsp</span>" }
 
 	if(pHeight%2===0){
 		var num = Math.ceil((pHeight-i)/2);
@@ -43,7 +43,7 @@ for (i=pHeight-1;i > 0;i--){
 	rLine +="<p>";
 	
 	if(i%2===0){
-		rLine+="<span style='color: #ffffff;'> </span>" }
+		rLine+="<span style='color: #ffffff;'>&nbsp</span>" }
 
 	if(pHeight%2===0){
 		var num = Math.ceil((pHeight-i)/2);
