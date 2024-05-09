@@ -13,7 +13,7 @@ for (i=1;i<=pHeight;i++){
 	rLine +="<p>";
 	//Create each line on the Rhombus
 	for(j=0;j<pHeight;j++){
-		if(j<(height-i))
+		if(j<(pHeight-i))
 		//should the symbol be white
 			rLine +="<span style='color: #ffffff;'>" + pSymbol +"</span>";
 		
@@ -45,7 +45,7 @@ for (i=pHeight;i > 0;i--){
 	rLine +="<p>";
 	//Create each line on the Rhombus
 	for(j=0;j<pHeight;j++){
-		if(j<(height-i))
+		if(j<(pHeight-i))
 		//should the symbol be white
 			rLine +="<span style='color: #ffffff ;'>" + pSymbol +"</span>";
 		
