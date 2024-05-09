@@ -40,7 +40,7 @@ for (i=1;i<=pHeight;i++){
 	// console.log(rLine);
 	}
 }
-document.getElementById("upRight").innerHTML = rLine;
+document.getElementById("up").innerHTML = rLine;
 }
 
 function down(pHeight, pColorEven, pColorOdd, pSymbol){
