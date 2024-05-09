@@ -15,7 +15,7 @@ for (i=1;i<=pHeight;i++){
 		var num = Math.ceil((pHeight-i)/2);
 	}
 	else {
-		rLine+="<span style='color: #ffffff;'> ' ' </span>"
+		rLine+="<span style='color: #ffffff;'> </span>"
 		var num = Math.floor((pHeight-i)/2);
 	}
 	for(j=0;j<num;j++){
@@ -44,7 +44,7 @@ for (i=pHeight-1;i > 0;i--){
 		var num = Math.ceil((pHeight-i)/2);
 	}
 	else {
-		rLine+="<span style='color: #ffffff;'> ' ' </span>"
+		rLine+="<span style='color: #ffffff;'> </span>"
 		var num = Math.floor((pHeight-i)/2);
 	}
 	for(j=0;j<num;j++){
