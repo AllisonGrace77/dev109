@@ -1,3 +1,7 @@
 body {
  background-image: url("retroLines2.jpg");
 }
+.column {
+  float: left;
+  width: 50%;
+}
