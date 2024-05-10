@@ -2,6 +2,9 @@ body {
  background-image: url("/dev109/midterm/images/retroLines2.jpg");
  background-color:#F0D5E3;
 background-size: 100%, auto;
+ font-family: "Dancing Script", cursive; 
+ font-weight: normal; 
+ font-style: normal; 
 }
 .column {
   float: left;
