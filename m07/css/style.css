@@ -11,7 +11,7 @@ body {
   font-family: 'Open Sans', sans-serif;}
 
 h1 {
-  background: #1e1b1e url("../images/travelworthy-logo.gif") no-repeat;
+  background: #1e1b1e url("/dev109/m07/images/travelWorthyLogo.png") no-repeat;
   width: 230px;
   height: 180px;
   float: left;
