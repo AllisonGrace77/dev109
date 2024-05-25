@@ -2,15 +2,15 @@ function validateForm(){
 
 firstName(); //done
 lastName(); //done
-email();
+email(); //basics done
 phone(); //done
 username(); //done
 password(); //done
 address(); //done
 city(); //done
-state();
-country();
-zipCode();
+state(); //basics done
+country(); //basics done
+zipCode(); //done
 
 if(firstName()&&lastName()&&email()&&phone()&&username()&&
 password()&&address()&&city()&&state()&&country()&&zipCode())
@@ -80,10 +80,19 @@ function email(){
     var email = document.getElementById("Email").value;
 
     //3) do the validation
-
+    if (email==="null" || email==="" ) {
+        errorMessages += "<p>The email is required</p>";
+        console.log("Email is invalid — required")
+        } 
+        else {
+                addressValidation = true;
+                console.log("Address valid");
+    }
     //4) send error messages 
-    
+    document.getElementById("errorEmail").innerHTML = errorMessages;
+
     //5) return the status of each field
+    return(emailValidation);
 }
 
 function phone(){
@@ -220,10 +229,12 @@ function state(){
     var errorMessage = "";
 
     //3) do the validation
+     stateValidation=true;
     
     //4) send error messages 
     
     //5) return the status of each field
+    return(stateValidation);
 }
 
 function country(){
@@ -235,10 +246,20 @@ function country(){
     var errorMessage = "";
 
     //3) do the validation
+    if (password==="null" || password==="" ) {
+        errorMessages += "<p>The country is required</p>";
+        console.log("Country is invalid — required")
+        } 
+        else {
+                countryValidation = true;
+                console.log("Country valid");
+    }
 
     //4) send error messages 
+    document.getElementById("errorCountry").innerHTML = errorMessages;
     
     //5) return the status of each field
+    return(countryValidation);
 }
 
 function zipCode(){
@@ -250,10 +271,22 @@ function zipCode(){
     var errorMessage = "";
 
     //3) do the validation
-
+    var country = document.getElementById("country").value;
+        if (country === "USA){
+            if (zipcode==="null" || zipcode==="" || zipcode.length > 5 ) {
+        errorMessages += "<p>The zip code is required and cannot be over 5 charachters</p>";
+        console.log("Zip code is invalid — length")
+        } 
+        else
+            zipValidation = true;
+            }
+        else
+            zipValidation = true;
     //4) send error messages 
+    document.getElementById("errorZipCode").innerHTML = errorMessages;
     
     //5) return the status of each field
+    return(zipValidation);
 }    
 
 
