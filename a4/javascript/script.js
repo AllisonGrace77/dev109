@@ -64,7 +64,7 @@ function lastName(){
     }
 
     //4) send error messages 
-    document.getElementById("errorLastName").innerHTML = errorMessages;
+    document.getElementById("lastNameError").innerHTML = errorMessages;
     
     //5) return the status of each field
     return(lnValidation);
@@ -87,7 +87,7 @@ function email(){
                 console.log("Address valid");
     }
     //4) send error messages 
-    document.getElementById("errorEmail").innerHTML = errorMessages;
+    document.getElementById("emailError").innerHTML = errorMessages;
 
     //5) return the status of each field
     return(emailValidation);
@@ -113,7 +113,7 @@ function phone(){
                 console.log("Last name valid");
     }
     //4) send error messages 
-    document.getElementById("errorPhone").innerHTML = errorMessages;
+    document.getElementById("phoneError").innerHTML = errorMessages;
 
     //5) return the status of each field
     return(phoneValidation);
@@ -137,7 +137,7 @@ function username(){
                 console.log("Username valid");
     }
     //4) send error messages 
-    document.getElementById("errorUsername").innerHTML = errorMessages;
+    document.getElementById("usernameError").innerHTML = errorMessages;
     
     //5) return the status of each field
     return(unValidation);
@@ -162,7 +162,7 @@ function password(){
     }
     
     //4) send error messages 
-    document.getElementById("errorPassword").innerHTML = errorMessages;
+    document.getElementById("passwordError").innerHTML = errorMessages;
     
     //5) return the status of each field
     return(passwordValidation);
@@ -187,7 +187,7 @@ function address(){
     }
     
     //4) send error messages 
-    document.getElementById("errorAddress").innerHTML = errorMessages;
+    document.getElementById("addressError").innerHTML = errorMessages;
     
     //5) return the status of each field
     return(addressValidation);
@@ -212,7 +212,7 @@ function city(){
     }
     
     //4) send error messages 
-    document.getElementById("errorCity").innerHTML = errorMessages;
+    document.getElementById("cityError").innerHTML = errorMessages;
     
     //5) return the status of each field
     return(cityValidation);
@@ -254,7 +254,7 @@ function country(){
     }
 
     //4) send error messages 
-    document.getElementById("errorCountry").innerHTML = errorMessages;
+    document.getElementById("countryError").innerHTML = errorMessages;
     
     //5) return the status of each field
     return(countryValidation);
@@ -281,7 +281,7 @@ function zipCode(){
         else
             zipValidation = true;
     //4) send error messages 
-    document.getElementById("errorZipCode").innerHTML = errorMessages;
+    document.getElementById(zipCodeError").innerHTML = errorMessages;
     
     //5) return the status of each field
     return(zipValidation);
