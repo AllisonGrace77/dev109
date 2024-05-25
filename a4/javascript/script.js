@@ -80,7 +80,7 @@ function email(){
     //3) do the validation
     if (email==="null" || email==="" ) {
         errorMessages += "<p>The email is required</p>";
-        console.log("Email is invalid — required")
+        console.log("Email is invalid — required");
         } 
         else {
                 addressValidation = true;
@@ -104,11 +104,11 @@ function phone(){
     //3) do the validation
      if (phone==="null" || phone==="" || phone.length > 15 ) {
         errorMessages += "<p>The phone number is required and cannot be over 15 charachters</p>";
-        console.log("Phone is invalid — length")
-        } else if (lastname.match("^[0-9]+$")===null) 
+        console.log("Phone is invalid — length"); } 
+     else if (lastname.match("^[0-9]+$")===null) {
             errorMessages += "<p>Invalid caracter in phone number (accepts only numbers)</p>";
-            console.log("Last name invalid — bad characters")
-        } else {
+            console.log("Last name invalid — bad characters"); } 
+     else {
                 phoneValidation = true;
                 console.log("Last name valid");
     }
@@ -130,7 +130,7 @@ function username(){
     //3) do the validation
     if (username==="null" || username==="" || username.length > 12 ) {
         errorMessages += "<p>The username is required and cannot be over 12 charachters</p>";
-        console.log("Username is invalid — length")
+        console.log("Username is invalid — length");
         } 
         else {
                 unValidation = true;
@@ -154,7 +154,7 @@ function password(){
     //3) do the validation
     if (password==="null" || password==="" || password.length > 7 ) {
         errorMessages += "<p>The password is required and cannot be over 7 charachters</p>";
-        console.log("Password is invalid — length")
+        console.log("Password is invalid — length");
         } 
         else {
                 passwordValidation = true;
@@ -179,7 +179,7 @@ function address(){
     //3) do the validation
     if (password==="null" || password==="" ) {
         errorMessages += "<p>The address is required</p>";
-        console.log("Address is invalid — required")
+        console.log("Address is invalid — required");
         } 
         else {
                 addressValidation = true;
@@ -246,7 +246,7 @@ function country(){
     //3) do the validation
     if (password==="null" || password==="" ) {
         errorMessages += "<p>The country is required</p>";
-        console.log("Country is invalid — required")
+        console.log("Country is invalid — required");
         } 
         else {
                 countryValidation = true;
@@ -270,10 +270,10 @@ function zipCode(){
 
     //3) do the validation
     var country = document.getElementById("country").value;
-        if (country === "USA){
+        if (country === "USA"){
             if (zipcode==="null" || zipcode==="" || zipcode.length > 5 ) {
         errorMessages += "<p>The zip code is required and cannot be over 5 charachters</p>";
-        console.log("Zip code is invalid — length")
+        console.log("Zip code is invalid — length");
         } 
         else
             zipValidation = true;
@@ -286,35 +286,3 @@ function zipCode(){
     //5) return the status of each field
     return(zipValidation);
 }    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//for my reference
-
-function isValid() {
-    if (firstName() //&&
-       // lastName()
-    )
-    return true;
-    else
-        document.getElementById("submitError").innerHTML = "<p><strong>Error Submitting — See Above</strong></p>";
-        event.preventDefault();
-        return false;
-}
-
-FirstName.addEventListener('blur', firstName, false);
-
-
