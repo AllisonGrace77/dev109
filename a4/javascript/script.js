@@ -1,19 +1,19 @@
 function validateForm(){
 
-firstName();
-lastName();
+firstName(); //done
+lastName(); //done
 email();
-phone();
-username();
-password();
-address();
-city();
+phone(); //done
+username(); //done
+password(); //done
+address(); //done
+city(); //done
 state();
 country();
 zipCode();
 
 if(firstName()&&lastName()&&email()&&phone()&&username()&&
-password()&&address()&&city()&&state()&&country()&&zipCode()&&)
+password()&&address()&&city()&&state()&&country()&&zipCode())
     //go to thank you page
 else
     //dont go to ty page, display errors
@@ -78,6 +78,12 @@ function email(){
 
     //2) create variables to read the values from html text inputs
     var email = document.getElementById("Email").value;
+
+    //3) do the validation
+
+    //4) send error messages 
+    
+    //5) return the status of each field
 }
 
 function phone(){
@@ -87,6 +93,23 @@ function phone(){
     //2) create variables to read the values from html text inputs
     var phone = document.getElementById("Phone").value;
     var errorMessage = "";
+
+    //3) do the validation
+     if (phone==="null" || phone==="" || phone.length > 15 ) {
+        errorMessages += "<p>The phone number is required and cannot be over 15 charachters</p>";
+        console.log("Phone is invalid — length")
+        } else if (lastname.match("^[0-9]+$")===null) 
+            errorMessages += "<p>Invalid caracter in phone number (accepts only numbers)</p>";
+            console.log("Last name invalid — bad characters")
+        } else {
+                phoneValidation = true;
+                console.log("Last name valid");
+    }
+    //4) send error messages 
+    document.getElementById("errorPhone").innerHTML = errorMessages;
+
+    //5) return the status of each field
+    return(phoneValidation);
 }
 
 function username(){
@@ -96,6 +119,21 @@ function username(){
     //2) create variables to read the values from html text inputs
     var username = document.getElementById("Username").value;
     var errorMessage = "";
+
+    //3) do the validation
+    if (username==="null" || username==="" || username.length > 12 ) {
+        errorMessages += "<p>The username is required and cannot be over 12 charachters</p>";
+        console.log("Username is invalid — length")
+        } 
+        else {
+                unValidation = true;
+                console.log("Username valid");
+    }
+    //4) send error messages 
+    document.getElementById("errorUsername").innerHTML = errorMessages;
+    
+    //5) return the status of each field
+    return(unValidation);
 }
 
 function password(){
@@ -105,6 +143,22 @@ function password(){
     //2) create variables to read the values from html text inputs
     var password = document.getElementById("Password").value;
     var errorMessage = "";
+
+    //3) do the validation
+    if (password==="null" || password==="" || password.length > 7 ) {
+        errorMessages += "<p>The password is required and cannot be over 7 charachters</p>";
+        console.log("Password is invalid — length")
+        } 
+        else {
+                passwordValidation = true;
+                console.log("Password valid");
+    }
+    
+    //4) send error messages 
+    document.getElementById("errorPassword").innerHTML = errorMessages;
+    
+    //5) return the status of each field
+    return(passwordValidation);
 }
 
 function address(){
@@ -114,6 +168,22 @@ function address(){
     //2) create variables to read the values from html text inputs
     var address = document.getElementById("Address").value;
     var errorMessage = "";
+
+    //3) do the validation
+    if (password==="null" || password==="" ) {
+        errorMessages += "<p>The address is required</p>";
+        console.log("Address is invalid — required")
+        } 
+        else {
+                addressValidation = true;
+                console.log("Address valid");
+    }
+    
+    //4) send error messages 
+    document.getElementById("errorAddress").innerHTML = errorMessages;
+    
+    //5) return the status of each field
+    return(addressValidation);
 }
 
 function city(){
@@ -123,6 +193,22 @@ function city(){
     //2) create variables to read the values from html text inputs
     var city = document.getElementById("City").value;
     var errorMessage = "";
+
+    //3) do the validation
+    if (city==="null" || city==="" ) {
+        errorMessages += "<p>The city is required</p>";
+        console.log("City is invalid — required")
+        } 
+        else {
+                cityValidation = true;
+                console.log("City valid");
+    }
+    
+    //4) send error messages 
+    document.getElementById("errorCity").innerHTML = errorMessages;
+    
+    //5) return the status of each field
+    return(cityValidation);
 }
 
 function state(){
@@ -132,6 +218,12 @@ function state(){
     //2) create variables to read the values from html text inputs
     var state = document.getElementById("State").value;
     var errorMessage = "";
+
+    //3) do the validation
+    
+    //4) send error messages 
+    
+    //5) return the status of each field
 }
 
 function country(){
@@ -141,6 +233,12 @@ function country(){
     //2) create variables to read the values from html text inputs
     var country = document.getElementById("Country").value;
     var errorMessage = "";
+
+    //3) do the validation
+
+    //4) send error messages 
+    
+    //5) return the status of each field
 }
 
 function zipCode(){
@@ -150,6 +248,12 @@ function zipCode(){
     //2) create variables to read the values from html text inputs
     var zipcode = document.getElementById("ZipCode").value;
     var errorMessage = "";
+
+    //3) do the validation
+
+    //4) send error messages 
+    
+    //5) return the status of each field
 }    
 
 
