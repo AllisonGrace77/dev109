@@ -8,7 +8,8 @@ body {
 
 #page {
 	background-color: #403c3b;
-	margin: 0 auto 0 auto;}
+	margin: 0 auto 0 auto;
+	padding:20px;}
 	/* Responsive page rules at bottom of style sheet */
 
 h1 {
