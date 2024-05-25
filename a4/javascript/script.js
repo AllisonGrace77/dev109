@@ -15,12 +15,13 @@ zipCode(); //done
 if(!(firstName()&&lastName()&&email()&&phone()&&username()&&password()&&address()&&city()&&state()&&country()&&zipCode())){
     form.preventDefault();
     returnToPreviousPage();
-    return false;
     console.log("NOT VALID");
+    return false;
   }
 else{
-    return true;
     console.log("VALID");
+    document.getElementById("myForm").submit();
+    return true;
 }
 }
 
@@ -191,6 +192,7 @@ function address(){
         console.log("Address is invalid — required");
         } 
         else {
+                
                 addressValidation = true;
                 console.log("Address valid");
     }
