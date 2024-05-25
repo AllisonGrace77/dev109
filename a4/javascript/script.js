@@ -1,4 +1,4 @@
-function validateForm(){
+function validateForm(e){
 
 firstName(); //done
 lastName(); //done
