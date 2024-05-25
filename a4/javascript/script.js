@@ -1,4 +1,4 @@
-function validateForm(e){
+function validateForm(form){
 
 firstName(); //done
 lastName(); //done
@@ -16,7 +16,7 @@ if(firstName()&&lastName()&&email()&&phone()&&username()&&
 password()&&address()&&city()&&state()&&country()&&zipCode())
     //go to thank you page
 else
-    e.preventDefault()
+    form.preventDefault()
 
 }
 
