@@ -11,11 +11,20 @@ body {
 	margin: 0 auto 0 auto;
 	}
 	/* Responsive page rules at bottom of style sheet */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px;
+	
+}
 
 h1 {
-	background-image: url(/dev109/m08/images/kingLogo2.png);
+	/*background-image: url(/dev109/m08/images/kingLogo2.png);
 	background-repeat: repeat;
-	background-position: center center;
+	background-position: center center;*/
+	
 	text-align: center;
 	text-indent: -1000%;
 	height: 50px;
