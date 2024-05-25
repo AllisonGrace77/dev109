@@ -12,12 +12,10 @@ state(); //basics done
 country(); //basics done
 zipCode(); //done
 
-if(firstName()&&lastName()&&email()&&phone()&&username()&&
-password()&&address()&&city()&&state()&&country()&&zipCode())
-    //go to thank you page
-else
-    form.preventDefault()
-
+if(!(firstName()&&lastName()&&email()&&phone()&&username()&&
+password()&&address()&&city()&&state()&&country()&&zipCode())){
+    form.preventDefault();
+  }
 }
 
 function firstName(){
