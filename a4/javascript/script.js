@@ -30,13 +30,14 @@ function firstName(){
 
     //2) create variables to read the values from html text inputs
     var firstname = document.getElementById("FirstName").value;
+    var errorMessage = "";
 
     //3) do the validation
     if (firstname==="null" || firstname==="" || firstname.length > 20 ) {
-        errorMessages += "<p>The first name is required and cannot be greater than 20 characters</p>";
+        errorMessage += "<p>The first name is required and cannot be greater than 20 characters</p>";
         console.log("First name invalid — length")
         } else if (firstname.match("^[a-zA-Z ,.'-]+$")===null) {
-            errorMessages += "<p>Invalid caracter in first name (accepts only A-Z, a-z, and ,.'-)</p>";
+            errorMessage += "<p>Invalid caracter in first name (accepts only A-Z, a-z, and ,.'-)</p>";
             console.log("First name invalid — bad characters")
         } else {
                 fnValidation = true;
@@ -44,7 +45,7 @@ function firstName(){
         }
 
     //4) send error messages 
-    document.getElementById("firstNameError").innerHTML = errorMessages;
+    document.getElementById("firstNameError").innerHTML = errorMessage;
 
     //5) return status of each field
     return (fnValidation);
@@ -56,13 +57,14 @@ function lastName(){
 
     //2) create variables to read the values from html text inputs
     var lastname = document.getElementById("LastName").value;
+    var errorMessage = "";
     
     //3) do the validation
     if (lastname==="null" || lastname==="" || lastname.length > 50 ) {
-        errorMessages += "<p>The last name is required and cannot be greater than 50 characters</p>";
+        errorMessage += "<p>The last name is required and cannot be greater than 50 characters</p>";
         console.log("Last name invalid — length")
         } else if (lastname.match("^[a-zA-Z ,.'-]+$")===null) {
-            errorMessages += "<p>Invalid caracter in last name (accepts only A-Z, a-z, and ,.'-)</p>";
+            errorMessage += "<p>Invalid caracter in last name (accepts only A-Z, a-z, and ,.'-)</p>";
             console.log("Last name invalid — bad characters")
         } else {
                 lnValidation = true;
@@ -70,7 +72,7 @@ function lastName(){
     }
 
     //4) send error messages 
-    document.getElementById("lastNameError").innerHTML = errorMessages;
+    document.getElementById("lastNameError").innerHTML = errorMessage;
     
     //5) return the status of each field
     return(lnValidation);
@@ -82,10 +84,11 @@ function email(){
 
     //2) create variables to read the values from html text inputs
     var email = document.getElementById("Email").value;
+    var errorMessage = "";
 
     //3) do the validation
     if (email==="null" || email==="" ) {
-        errorMessages += "<p>The email is required</p>";
+        errorMessage += "<p>The email is required</p>";
         console.log("Email is invalid — required");
         } 
         else {
@@ -93,7 +96,7 @@ function email(){
                 console.log("Address valid");
     }
     //4) send error messages 
-    document.getElementById("emailError").innerHTML = errorMessages;
+    document.getElementById("emailError").innerHTML = errorMessage;
 
     //5) return the status of each field
     return(emailValidation);
@@ -109,17 +112,17 @@ function phone(){
 
     //3) do the validation
      if (phone==="null" || phone==="" || phone.length > 15 ) {
-        errorMessages += "<p>The phone number is required and cannot be over 15 charachters</p>";
+        errorMessage += "<p>The phone number is required and cannot be over 15 charachters</p>";
         console.log("Phone is invalid — length"); } 
      else if (lastname.match("^[0-9]+$")===null) {
-            errorMessages += "<p>Invalid caracter in phone number (accepts only numbers)</p>";
+            errorMessage += "<p>Invalid caracter in phone number (accepts only numbers)</p>";
             console.log("Last name invalid — bad characters"); } 
      else {
                 phoneValidation = true;
                 console.log("Last name valid");
     }
     //4) send error messages 
-    document.getElementById("phoneError").innerHTML = errorMessages;
+    document.getElementById("phoneError").innerHTML = errorMessage;
 
     //5) return the status of each field
     return(phoneValidation);
@@ -135,7 +138,7 @@ function username(){
 
     //3) do the validation
     if (username==="null" || username==="" || username.length > 12 ) {
-        errorMessages += "<p>The username is required and cannot be over 12 charachters</p>";
+        errorMessage += "<p>The username is required and cannot be over 12 charachters</p>";
         console.log("Username is invalid — length");
         } 
         else {
@@ -143,7 +146,7 @@ function username(){
                 console.log("Username valid");
     }
     //4) send error messages 
-    document.getElementById("usernameError").innerHTML = errorMessages;
+    document.getElementById("usernameError").innerHTML = errorMessage;
     
     //5) return the status of each field
     return(unValidation);
@@ -159,7 +162,7 @@ function password(){
 
     //3) do the validation
     if (password==="null" || password==="" || password.length > 7 ) {
-        errorMessages += "<p>The password is required and cannot be over 7 charachters</p>";
+        errorMessage += "<p>The password is required and cannot be over 7 charachters</p>";
         console.log("Password is invalid — length");
         } 
         else {
@@ -168,7 +171,7 @@ function password(){
     }
     
     //4) send error messages 
-    document.getElementById("passwordError").innerHTML = errorMessages;
+    document.getElementById("passwordError").innerHTML = errorMessage;
     
     //5) return the status of each field
     return(passwordValidation);
@@ -184,7 +187,7 @@ function address(){
 
     //3) do the validation
     if (password==="null" || password==="" ) {
-        errorMessages += "<p>The address is required</p>";
+        errorMessage += "<p>The address is required</p>";
         console.log("Address is invalid — required");
         } 
         else {
@@ -193,7 +196,7 @@ function address(){
     }
     
     //4) send error messages 
-    document.getElementById("addressError").innerHTML = errorMessages;
+    document.getElementById("addressError").innerHTML = errorMessage;
     
     //5) return the status of each field
     return(addressValidation);
@@ -209,7 +212,7 @@ function city(){
 
     //3) do the validation
     if (city==="null" || city==="" ) {
-        errorMessages += "<p>The city is required</p>";
+        errorMessage += "<p>The city is required</p>";
         console.log("City is invalid — required")
         } 
         else {
@@ -218,7 +221,7 @@ function city(){
     }
     
     //4) send error messages 
-    document.getElementById("cityError").innerHTML = errorMessages;
+    document.getElementById("cityError").innerHTML = errorMessage;
     
     //5) return the status of each field
     return(cityValidation);
@@ -251,7 +254,7 @@ function country(){
 
     //3) do the validation
     if (password==="null" || password==="" ) {
-        errorMessages += "<p>The country is required</p>";
+        errorMessage += "<p>The country is required</p>";
         console.log("Country is invalid — required");
         } 
         else {
@@ -260,7 +263,7 @@ function country(){
     }
 
     //4) send error messages 
-    document.getElementById("countryError").innerHTML = errorMessages;
+    document.getElementById("countryError").innerHTML = errorMessage;
     
     //5) return the status of each field
     return(countryValidation);
@@ -278,7 +281,7 @@ function zipCode(){
     var country = document.getElementById("country").value;
         if (country === "USA"){
             if (zipcode==="null" || zipcode==="" || zipcode.length > 5 ) {
-        errorMessages += "<p>The zip code is required and cannot be over 5 charachters</p>";
+        errorMessage += "<p>The zip code is required and cannot be over 5 charachters</p>";
         console.log("Zip code is invalid — length");
         } 
         else
@@ -287,7 +290,7 @@ function zipCode(){
         else
             zipValidation = true;
     //4) send error messages 
-    document.getElementById("zipCodeError").innerHTML = errorMessages;
+    document.getElementById("zipCodeError").innerHTML = errorMessage;
     
     //5) return the status of each field
     return(zipValidation);
