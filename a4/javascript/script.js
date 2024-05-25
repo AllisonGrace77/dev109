@@ -285,7 +285,7 @@ function zipCode(){
         else
             zipValidation = true;
     //4) send error messages 
-    document.getElementById(zipCodeError").innerHTML = errorMessages;
+    document.getElementById("zipCodeError").innerHTML = errorMessages;
     
     //5) return the status of each field
     return(zipValidation);
