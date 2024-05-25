@@ -16,7 +16,7 @@ if(firstName()&&lastName()&&email()&&phone()&&username()&&
 password()&&address()&&city()&&state()&&country()&&zipCode())
     //go to thank you page
 else
-    //dont go to ty page, display errors
+    e.preventDefault()
 
 }
 
