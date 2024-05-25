@@ -13,6 +13,7 @@ body {
 	/* Responsive page rules at bottom of style sheet */
 img {
   display: block;
+  transform: scale(0.6);
   margin-left: auto;
   margin-right: auto;
   width: 50%;
