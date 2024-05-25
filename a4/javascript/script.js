@@ -14,7 +14,12 @@ zipCode(); //done
 
 if(!(firstName()&&lastName()&&email()&&phone()&&username()&&password()&&address()&&city()&&state()&&country()&&zipCode())){
     form.preventDefault();
+    returnToPreviousPage();
+    return false;
   }
+else{
+    return true;
+}
 }
 
 function firstName(){
