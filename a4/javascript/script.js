@@ -12,8 +12,7 @@ state(); //basics done
 country(); //basics done
 zipCode(); //done
 
-if(!(firstName()&&lastName()&&email()&&phone()&&username()&&
-password()&&address()&&city()&&state()&&country()&&zipCode())){
+if(!(firstName()&&lastName()&&email()&&phone()&&username()&&password()&&address()&&city()&&state()&&country()&&zipCode())){
     form.preventDefault();
   }
 }
