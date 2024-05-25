@@ -1,5 +1,6 @@
-.warning {
-    color:red;
+#myForm {
+    border: thick double #32a1ce;
+    background-color:f9e4bc;
 }
 .errorMessages{
     font-weight: bold;
