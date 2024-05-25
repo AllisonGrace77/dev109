@@ -1,3 +1,11 @@
+function validateForm(){
+
+    
+}
+
+
+
+
 function isValid() {
     if (firstName() //&&
        // lastName()
