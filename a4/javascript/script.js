@@ -1,5 +1,5 @@
 function validateForm(form){
-
+console.log("validating form...");
 firstName(); //done
 lastName(); //done
 email(); //basics done
