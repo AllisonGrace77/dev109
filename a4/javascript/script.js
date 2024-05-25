@@ -16,9 +16,11 @@ if(!(firstName()&&lastName()&&email()&&phone()&&username()&&password()&&address(
     form.preventDefault();
     returnToPreviousPage();
     return false;
+    console.log("NOT VALID");
   }
 else{
     return true;
+    console.log("VALID");
 }
 }
 
