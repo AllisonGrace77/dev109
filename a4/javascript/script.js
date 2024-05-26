@@ -114,7 +114,7 @@ function phone(){
      if (phone==="null" || phone==="" || phone.length > 15 ) {
         errorMessage += "<p>The phone number is required and cannot be over 15 charachters</p>";
         console.log("Phone is invalid — length"); } 
-     else if (phone.match("^[0-9]+$")!==null) {
+     else if (phone.match("^[0-9]+$")===null) {
             errorMessage += "<p>Invalid character in phone number (accepts only numbers)</p>";
             console.log("Phone number invalid — bad characters"); } 
      else {
