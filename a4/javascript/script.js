@@ -19,7 +19,7 @@ if(!(firstName()&&lastName()&&email()&&phone()&&username()&&password()&&address(
   }
 else{
     console.log("VALID");
-    document.getElementById("myForm").submit();
+   // document.getElementById("myForm").submit();
     return true;
 }
 }
