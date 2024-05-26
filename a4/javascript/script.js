@@ -1,5 +1,5 @@
 function validateForm(form){
-console.log("validating form...");
+/*console.log("validating form...");
 console.log(firstName()); //done
 console.log(lastName()); //done
 console.log(email()); //basics done
@@ -10,7 +10,7 @@ console.log(address()); //done
 console.log(city()); //done
 console.log(state()); //basics done
 console.log(country()); //basics done
-console.log(zipCode()); //done
+console.log(zipCode()); //done */
 
 if(!(firstName()&&lastName()&&email()&&phone()&&username()&&password()&&address()&&city()&&state()&&country()&&zipCode())){
     event.preventDefault();
