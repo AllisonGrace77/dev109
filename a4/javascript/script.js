@@ -272,7 +272,7 @@ function country(){
 
 function zipCode(){
     //1) create a variable to control status of each field. Assume that they are not valid
-    var zipValidation = false;
+    var c = false;
     
     //2) create variables to read the values from html text inputs
     var zipcode = document.getElementById("ZipCode").value;
