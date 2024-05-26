@@ -236,7 +236,7 @@ function state(){
 
     //2) create variables to read the values from html text inputs
     var s = document.getElementById("State");
-    var state = c.value;
+    var state = s.value;
     var country = document.getElementById("Country").value;
     var errorMessage = "";
 
@@ -288,7 +288,7 @@ function country(){
 
 function zipCode(){
     //1) create a variable to control status of each field. Assume that they are not valid
-    var c = false;
+    var zipValidation = false;
     
     //2) create variables to read the values from html text inputs
     var zipcode = document.getElementById("ZipCode").value;
