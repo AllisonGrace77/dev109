@@ -1,16 +1,16 @@
 function validateForm(form){
 console.log("validating form...");
 console.log(firstName()); //done
-lastName(); //done
-email(); //basics done
-phone(); //done
-username(); //done
-password(); //done
-address(); //done
-city(); //done
-state(); //basics done
-country(); //basics done
-zipCode(); //done
+console.log(lastName()); //done
+console.log(email()); //basics done
+console.log(phone()); //done
+console.log(username()); //done
+console.log(password()); //done
+console.log(address()); //done
+console.log(city()); //done
+console.log(state()); //basics done
+console.log(country()); //basics done
+console.log(zipCode()); //done
 
 if(!(firstName()&&lastName()&&email()&&phone()&&username()&&password()&&address()&&city()&&state()&&country()&&zipCode())){
     event.preventDefault();
