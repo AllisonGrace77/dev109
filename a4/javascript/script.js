@@ -37,7 +37,7 @@ function firstName(){
         errorMessage += "<p>The first name is required and cannot be greater than 20 characters</p>";
         console.log("First name invalid — length")
         } else if (firstname.match("^[a-zA-Z ,.'-]+$")===null) {
-            errorMessage += "<p>Invalid caracter in first name (accepts only A-Z, a-z, and ,.'-)</p>";
+            errorMessage += "<p>Invalid character in first name (accepts only A-Z, a-z, and ,.'-)</p>";
             console.log("First name invalid — bad characters")
         } else {
                 fnValidation = true;
@@ -64,7 +64,7 @@ function lastName(){
         errorMessage += "<p>The last name is required and cannot be greater than 50 characters</p>";
         console.log("Last name invalid — length")
         } else if (lastname.match("^[a-zA-Z ,.'-]+$")===null) {
-            errorMessage += "<p>Invalid caracter in last name (accepts only A-Z, a-z, and ,.'-)</p>";
+            errorMessage += "<p>Invalid character in last name (accepts only A-Z, a-z, and ,.'-)</p>";
             console.log("Last name invalid — bad characters")
         } else {
                 lnValidation = true;
@@ -115,7 +115,7 @@ function phone(){
         errorMessage += "<p>The phone number is required and cannot be over 15 charachters</p>";
         console.log("Phone is invalid — length"); } 
      else if (lastname.match("^[0-9]+$")===null) {
-            errorMessage += "<p>Invalid caracter in phone number (accepts only numbers)</p>";
+            errorMessage += "<p>Invalid character in phone number (accepts only numbers)</p>";
             console.log("Last name invalid — bad characters"); } 
      else {
                 phoneValidation = true;
@@ -286,6 +286,9 @@ function zipCode(){
         errorMessage += "<p>The zip code is required and cannot be over 5 charachters</p>";
         console.log("Zip code is invalid — length");
         } 
+        else if (zipcode.match("^[0-9]+$")===null) {
+            errorMessage += "<p>Invalid character in zip code (accepts only numbers)</p>";
+            console.log("Zip code invalid — bad characters"); } 
         else{
             zipValidation = true; }
             }
