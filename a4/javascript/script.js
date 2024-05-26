@@ -276,12 +276,10 @@ function zipCode(){
     
     //2) create variables to read the values from html text inputs
     var zipcode = document.getElementById("ZipCode").value;
+    var country = document.getElementById("Country").value;
     var errorMessage = "";
 
     //3) do the validation
-    if (document.getElementById("country").value!==null){
-    zipValidation = true; }
-    else {
         if (country === "USA"){
             if (zipcode==="null" || zipcode==="" || zipcode.length > 5 ) {
         errorMessage += "<p>The zip code is required and cannot be over 5 charachters</p>";
@@ -290,9 +288,9 @@ function zipCode(){
         else{
             zipValidation = true; }
             }
-        else
+        else {
             zipValidation = true;
-
+        }
     }
     //4) send error messages 
     document.getElementById("zipCodeError").innerHTML = errorMessage;
