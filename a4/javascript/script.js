@@ -1,6 +1,6 @@
 function validateForm(form){
 console.log("validating form...");
-firstName(); //done
+console.log(firstName()); //done
 lastName(); //done
 email(); //basics done
 phone(); //done
