@@ -186,7 +186,7 @@ function address(){
     var errorMessage = "";
 
     //3) do the validation
-    if (password==="null" || password==="" ) {
+    if (address==="null" || address==="" ) {
         errorMessage += "<p>The address is required</p>";
         console.log("Address is invalid — required");
         } 
@@ -254,7 +254,7 @@ function country(){
     var errorMessage = "";
 
     //3) do the validation
-    if (password==="null" || password==="" ) {
+    if (country==="null" || country==="" ) {
         errorMessage += "<p>The country is required</p>";
         console.log("Country is invalid — required");
         } 
