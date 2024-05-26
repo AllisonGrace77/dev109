@@ -92,7 +92,7 @@ function email(){
         console.log("Email is invalid — required");
         } 
         else {
-                emailsValidation = true;
+                emailValidation = true;
                 console.log("Email valid");
     }
     //4) send error messages 
