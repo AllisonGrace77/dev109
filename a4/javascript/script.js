@@ -242,7 +242,7 @@ function state(){
 
     //3) do the validation
     if(country==="USA"){
-        if (country==="n/a"){
+        if (state==="n/a"){
             errorMessage += "<p>A state is required in the United States</p>";
             console.log("State is invalid — required for US");
         }
