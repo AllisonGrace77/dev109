@@ -279,20 +279,21 @@ function zipCode(){
     var errorMessage = "";
 
     //3) do the validation
-    if country()===true{
-    var country = document.getElementById("country").value; }
-    else{
-        var country = null; }
+    if (document.getElementById("country").value!==null){
+    zipValidation = true; }
+    else {
         if (country === "USA"){
             if (zipcode==="null" || zipcode==="" || zipcode.length > 5 ) {
         errorMessage += "<p>The zip code is required and cannot be over 5 charachters</p>";
         console.log("Zip code is invalid — length");
         } 
-        else
-            zipValidation = true;
+        else{
+            zipValidation = true; }
             }
         else
             zipValidation = true;
+
+    }
     //4) send error messages 
     document.getElementById("zipCodeError").innerHTML = errorMessage;
     
