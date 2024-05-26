@@ -95,7 +95,7 @@ function email(){
         errorMessage += "<p>Please include an @ symbol</p>";
         console.log("Email is invalid — @");
         }
-        else if (!(email.match('.com')===null && email.match('.net')===null && email.match('.edu')===null)){
+        else if (email.match('.com')===null && email.match('.net')===null && email.match('.edu')===null){
             errorMessage += "<p>Please include either '.com', '.net', or '.edu' in your email</p>";
             console.log("Email is invalid — end");
         }
