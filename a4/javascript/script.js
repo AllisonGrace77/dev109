@@ -255,7 +255,7 @@ function country(){
     var errorMessage = "";
 
     //3) do the validation
-    if (country==="null" || country==="" ) {
+    if (country==="n/a") {
         errorMessage += "<p>The country is required</p>";
         console.log("Country is invalid — required");
         } 
