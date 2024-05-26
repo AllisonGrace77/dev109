@@ -1,9 +1,9 @@
-#myForm {
+form {
     border: thick double #32a1ce;
     background-color:f9e4bc;
 }
 .errorMessages{
     font-weight: bold;
     color:red;
-    font-size:14pt;
+    font-size:8pt;
 }
