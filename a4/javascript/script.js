@@ -235,13 +235,26 @@ function state(){
     var stateValidation = false;
 
     //2) create variables to read the values from html text inputs
-    var state = document.getElementById("State").value;
+    var s = document.getElementById("State");
+    var state = c.value;
+    var country = document.getElementById("Country").value;
     var errorMessage = "";
 
     //3) do the validation
-     stateValidation=true;
+    if(country==="USA"){
+        if (country==="n/a"){
+            errorMessage += "<p>A state is required in the United States</p>";
+            console.log("State is invalid — required for US");
+        }
+        else{
+            stateValidation=true;
+        }
+    }
+    else
+         stateValidation=true;
     
     //4) send error messages 
+    document.getElementById("stateError").innerHTML = errorMessage;
     
     //5) return the status of each field
     return(stateValidation);
