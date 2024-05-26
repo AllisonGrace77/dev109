@@ -13,7 +13,8 @@ country(); //basics done
 zipCode(); //done
 
 if(!(firstName()&&lastName()&&email()&&phone()&&username()&&password()&&address()&&city()&&state()&&country()&&zipCode())){
-    form.preventDefault();
+    //form.preventDefault();
+    window.history.back();
     console.log("NOT VALID");
     return false;
   }
