@@ -250,7 +250,8 @@ function country(){
     var countryValidation = false;
     
     //2) create variables to read the values from html text inputs
-    var country = document.getElementById("Country").value;
+    var c = document.getElementById("Country");
+    var country = c.value;
     var errorMessage = "";
 
     //3) do the validation
