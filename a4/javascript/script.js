@@ -291,7 +291,7 @@ function zipCode(){
         else {
             zipValidation = true;
         }
-    }
+    
     //4) send error messages 
     document.getElementById("zipCodeError").innerHTML = errorMessage;
     
