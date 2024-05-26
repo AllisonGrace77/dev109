@@ -1,6 +1,9 @@
 form {
     border: thick double #32a1ce;
-    background-color:f9e4bc;
+    background-color:#f9e4bc;
+    margin-left:20%;
+    margin-right:20%;
+    
 }
 .errorMessages{
     font-weight: bold;
