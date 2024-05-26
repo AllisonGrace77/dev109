@@ -92,8 +92,8 @@ function email(){
         console.log("Email is invalid — required");
         } 
         else {
-                addressValidation = true;
-                console.log("Address valid");
+                emailsValidation = true;
+                console.log("Email valid");
     }
     //4) send error messages 
     document.getElementById("emailError").innerHTML = errorMessage;
@@ -116,10 +116,10 @@ function phone(){
         console.log("Phone is invalid — length"); } 
      else if (lastname.match("^[0-9]+$")===null) {
             errorMessage += "<p>Invalid character in phone number (accepts only numbers)</p>";
-            console.log("Last name invalid — bad characters"); } 
+            console.log("Phone number invalid — bad characters"); } 
      else {
                 phoneValidation = true;
-                console.log("Last name valid");
+                console.log("Phone number valid");
     }
     //4) send error messages 
     document.getElementById("phoneError").innerHTML = errorMessage;
