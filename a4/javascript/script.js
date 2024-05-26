@@ -290,10 +290,12 @@ function zipCode(){
             errorMessage += "<p>Invalid character in zip code (accepts only numbers)</p>";
             console.log("Zip code invalid — bad characters"); } 
         else{
-            zipValidation = true; }
+            zipValidation = true; 
+            console.log("Zip code valid");}
             }
         else {
             zipValidation = true;
+            console.log("Zip code valid (empty)");
         }
     
     //4) send error messages 
