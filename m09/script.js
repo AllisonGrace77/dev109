@@ -11,7 +11,7 @@ for (index = element.length - 1; index >= 0; index--) {
 
 event.stopPropagation();
   });
-  addEventListener("click", function(event) {
+  document.addEventListener("click", function(event) {
     var dot = document.createElement("div");
     dot.className = "dot";
     dot.style.left = (event.pageX - 4) + "px";
