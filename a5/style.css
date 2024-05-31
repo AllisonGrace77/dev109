@@ -1,12 +1,16 @@
 * {
-		font-family: "Cactus Classical Serif", serif; 
-		color: #181511;
-		text-align: center;
+	font-family: "Cactus Classical Serif", serif; 
+	color: #181511;
+	text-align: center;
 }
 body {
-		background-color: #F0ECDD;
-		margin: 0 auto;
+	background-color: #F0ECDD;
+	margin: 0 auto;
 	}
+#slideshow {
+	height: 40%;
+	width: auto;
+}
 .cactus-classical-serif-regular {
   font-family: "Cactus Classical Serif", serif;
   font-weight: 400;
