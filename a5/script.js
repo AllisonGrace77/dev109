@@ -4,7 +4,7 @@ body.onload = updateImage;
 //image urls, alt descriptions, and captions
 var myImages =["/dev109/a5/images/ghibli.jpg", "/dev109/a5/images/figure.jpg", "/dev109/a5/images/cloudScape.jpg", "/dev109/a5/images/cat.jpg", "/dev109/a5/images/strawberry.jpg"]
 var altImages =["Ghibli Landscape Painting","Ballet Figure Painting","Cloud Painting","Cat Painting","Strawberry Still Life Painting"];
-var captionImages =[];
+var captionImages =["Ghibli Landscape Painting - 2024","Ballet Figure Painting - 2023","Cloud Painting - 2022","Cat Painting - 2023","Strawberry Still Life Painting - 2023"];
 var index=0; 
 var auto=false;
 var intervalId = clearInterval();
