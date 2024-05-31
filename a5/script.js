@@ -7,7 +7,7 @@ var altImages =["Ghibli Landscape Painting","Ballet Figure Painting","Cloud Pain
 var captionImages =["Ghibli Landscape Painting - 2024","Ballet Figure Painting - 2023","Cloud Painting - 2022","Cat Painting - 2023","Strawberry Still Life Painting - 2023"];
 var index=0; 
 var auto=false;
-var intervalId = clearInterval();
+var intervalId;
 
 //event listeners
 var nextButton = document.getElementById("next");
@@ -30,7 +30,7 @@ function next(){
  index++;
  updateImage();
  if(auto===true){
-   intervalId = clearInterval();
+   clearInterval(intervalId);
    intervalId = setInterval(next, 3000);
  }
 } 
@@ -44,7 +44,7 @@ function back(){
 
  updateImage();
  if(auto===true){
-   intervalId = clearInterval();
+   clearInterval(intervalId);
    intervalId = setInterval(next, 3000);
  }
 } 
@@ -60,7 +60,7 @@ function isAuto() {
  }
  else{
    auto=false;
-  intervalId = clearInterval();
+   clearInterval(intervalId);
 }
 }
 
