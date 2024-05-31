@@ -1,4 +1,4 @@
-var body = getElementsByTagName('body')[0];
+var body = document.getElementsByTagName('body')[0];
 body.onload = updateImage;
 
 //image urls, alt descriptions, and captions
@@ -10,8 +10,8 @@ var auto=false;
 var intervalId = clearInterval();
 
 //event listeners
-var nextButton = getElementById("next");
-var previousButton = getElementById("previous");
+var nextButton = document.getElementById("next");
+var previousButton = document.getElementById("previous");
 nextButton.addEventListener('click', next, false); 
 previousButton.addEventListener('click', back, false);
 
@@ -50,7 +50,7 @@ function back(){
 } 
 
 //section for checkbox
-var checkbox = getElementById("auto");
+var checkbox = document.getElementById("auto");
 checkbox.addEventListener('click', isAuto, false);
 
 function isAuto() {
