@@ -22,5 +22,6 @@ h1 {
 }
 #auto {
 	float: right;
+	text-align: right;
 	border: red;
 }
