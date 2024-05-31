@@ -3,4 +3,10 @@
   font-weight: 400;
   font-style: normal;
 }
-
+* {
+		font-family: Arial, Verdana, sans-serif;
+		color: #665544;
+		text-align: center;}
+	body {
+		background-color: #;
+		margin: 0 auto;}
