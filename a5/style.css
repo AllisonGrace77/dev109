@@ -1,5 +1,5 @@
 * {
-		font-family: "Cactus Classical Serif", serif; 
+		font-family: "Jadquard 12", serif; 
 		color: #181511;
 		text-align: center;
 }
@@ -7,8 +7,8 @@ body {
 		background-color: #F0ECDD;
 		margin: 0 auto;
 	}
-.cactus-classical-serif-regular {
-  	font-family: "Cactus Classical Serif", serif;
-  	font-weight: 400;
-  	font-style: normal;
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
