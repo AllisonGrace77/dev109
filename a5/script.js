@@ -3,6 +3,7 @@ var myImages =["/dev109/a5/images/ghibli.jpg", "/dev109/a5/images/figure.jpg", "
 var altImages =["Ghibli Landscape Painting","Ballet Figure Painting","Cloud Painting","Cat Painting","Strawberry Still Life Painting"];
 var captionImages =[];
 var index=0; 
+var auto=false;
 
 //event listeners
 var nextButton = getElementById("next");
@@ -35,3 +36,19 @@ function back(){
  
  updateImage();
 } 
+
+//section for checkbox
+var checkbox = getElementById("auto");
+checkbox.addEventListener('click', isAuto, false);
+
+function isAuto() {
+ if(checkbox.checked){
+   auto=true;
+   setInterval(next, 3000);
+ }
+ else{
+   auto=false;
+}
+}
+
+
