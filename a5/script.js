@@ -1,4 +1,4 @@
-var body = getElementByTag('body');
+var body = getElementsByTagName('body')[0];
 body.onload = updateImage;
 
 //image urls, alt descriptions, and captions
