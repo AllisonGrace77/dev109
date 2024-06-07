@@ -119,8 +119,8 @@ function phone(){
     var errorMessage = "";
 
     //3) do the validation
-     if (phone==="null" || phone==="" || phone.length > 15 ) {
-        errorMessage += "<p>The phone number is required and cannot be over 15 charachters</p>";
+     if (phone==="null" || phone==="" || phone.length > 15 || firstname.length < 10 ) {
+        errorMessage += "<p>The phone number is required and cannot be under 10 or over 15 charachters</p>";
         console.log("Phone is invalid — length"); } 
      else if (phone.match("^[0-9]+$")===null) {
             errorMessage += "<p>Invalid character in phone number (accepts only numbers)</p>";
@@ -305,8 +305,8 @@ function zipCode(){
 
     //3) do the validation
         if (country === "USA"){
-            if (zipcode==="null" || zipcode==="" || zipcode.length > 5 ) {
-        errorMessage += "<p>The zip code is required and cannot be over 5 charachters</p>";
+            if (zipcode==="null" || zipcode==="" || zipcode.length > 5 || firstname.length < 5 ) {
+        errorMessage += "<p>The zip code is required and must be 5 digits</p>";
         console.log("Zip code is invalid — length");
         } 
         else if (zipcode.match("^[0-9]+$")===null) {
