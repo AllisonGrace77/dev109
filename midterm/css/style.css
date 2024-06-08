@@ -61,7 +61,7 @@ background-size: 100%, auto;
   overflow-x: hidden;
   position: relative;
 }
-.validator{
+.validator {
 max-width: 80%;
 height: auto;
 }
@@ -70,6 +70,17 @@ height: auto;
   font-family: ubuntu-regular, "Ubuntu", sans-serif; 
   font-color: #ffffff;
 }
+a:link.menu {
+  font-color:#ffffff;
+}
+a:visited.menu {
+  font-color:#ffffff;
+}
+a:hover.menu {
+  font-color:#ffffff;
+  text-decoration: underline;
+}
+#menu
 h1{
   font-color:#ffffff;
 }
