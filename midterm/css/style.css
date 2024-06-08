@@ -69,6 +69,9 @@ height: auto;
   background-color:#6F4E37;
   font-family: ubuntu-regular, "Ubuntu", sans-serif; 
   font-color: #ffffff;
+  padding: 5pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
 }
 a:link.menu {
   font-color:#ffffff;
