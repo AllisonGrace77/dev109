@@ -68,18 +68,19 @@ height: auto;
 #menu{
   background-color:#6F4E37;
   font-family: ubuntu-regular, "Ubuntu", sans-serif; 
+  width: 100%;
   font-color: #ffffff;
   padding: 5pt;
   margin-left: 0pt;
   margin-right: 0pt;
 }
-a:link.menu {
+#menu a:link {
   font-color:#ffffff;
 }
-a:visited.menu {
+#menu a:visited {
   font-color:#ffffff;
 }
-a:hover.menu {
+#menu a:hover {
   font-color:#ffffff;
   text-decoration: underline;
 }
