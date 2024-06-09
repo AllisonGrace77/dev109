@@ -74,6 +74,10 @@ height: auto;
   margin-left: 0pt;
   margin-right: 0pt;
 }
+#menu a {
+  text-decoration: none;
+  font-color:#ffffff;
+}
 #menu a:link {
   font-color:#ffffff;
 }
