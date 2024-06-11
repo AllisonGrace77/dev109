@@ -20,11 +20,10 @@ max-width: 80%;
 height: auto;
 }
 #menu{
-  position: fixed;
   left:0;
   background-color:#6F4E37;
   font-family: ubuntu-regular, "Ubuntu", sans-serif; 
-  width: 105%;
+  width: 100vw;
   font-color: #ffffff;
   padding: 20pt;
   padding-left: 50pt;
