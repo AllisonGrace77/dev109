@@ -46,8 +46,7 @@ a {
  color: #ffffff; 
 }
 div a {
-  height: 44pt;
-  width: auto;
+  font-size:20pt;
   text-decoration: none;
   font-color:#ffffff;
   margin-left: 2.5%;
