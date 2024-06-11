@@ -16,6 +16,10 @@ body {
   overflow-x: hidden;
   position: relative;
 }
+.artifactPics{
+ width:150pt;
+ height: auto;
+}
 #ghibli{
  width: 40%;
  height:auto;
