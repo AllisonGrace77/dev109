@@ -77,17 +77,17 @@ height: auto;
 a {
  color: #0000EE; 
 }
-#menu a {
+div a {
   text-decoration: none;
   font-color:#ffffff;
 }
-#menu a:link {
+div a:link {
   font-color:#ffffff;
 }
-#menu a:visited {
+div a:visited {
   font-color:#ffffff;
 }
-#menu a:hover {
+div a:hover {
   font-color:#ffffff;
   text-decoration: underline;
 }
