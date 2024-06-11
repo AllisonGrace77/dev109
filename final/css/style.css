@@ -15,6 +15,11 @@ body {
   overflow-x: hidden;
   position: relative;
 }
+.ghibli{
+ width: 40%;
+ height:auto;
+ float:left;
+}
 .validator {
 max-width: 80%;
 height: auto;
