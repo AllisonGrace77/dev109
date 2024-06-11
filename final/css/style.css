@@ -19,7 +19,8 @@ body {
 #ghibli{
  width: 40%;
  height:auto;
- float:left;
+ float:right;
+ margin-left:5pt;
 }
 .validator {
 max-width: 80%;
