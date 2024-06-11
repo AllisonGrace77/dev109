@@ -74,6 +74,9 @@ height: auto;
   margin-left: 0pt;
   margin-right: 0pt;
 }
+a {
+ color: auto; 
+}
 #menu a {
   text-decoration: none;
   font-color:#ffffff;
