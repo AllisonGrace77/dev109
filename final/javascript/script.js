@@ -93,7 +93,7 @@ function comments(){
         }
     
     //4) send error messages 
-    document.getElementById("commentError").innerHTML = errorMessage;
+    document.getElementById("commentsError").innerHTML = errorMessage;
     
     //5) return the status of each field
     return(commentsValidation);
