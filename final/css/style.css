@@ -82,6 +82,7 @@ a {
  color: #ffffff; 
 }
 div a {
+  font-size: 16pt;
   text-decoration: none;
   font-color:#ffffff;
   margin-right:5%;
