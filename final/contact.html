@@ -25,15 +25,26 @@
     <a href="/dev109/final/creative.html" target="_self">Ally's Art Corner</a>
     <a href="/dev109/final/validated.html" target="_self">Validated</a>
   </div>
-  <form action="/dev109/final/thankyou.html" method="get" name="myContact">
-    <p>Name:</p>
-    <input type="text" name="name" size="15" maxlength="30" />
-    <p>Email:</p>
-    <input type="text" name="email" size="15" maxlength="30" />
-    <p>Any additional comments?</p>
-    <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+  <form id="myform" action="/dev109/final/thankyou.html" onsubmit="validateForm(this);">
+    <p>
+        <label for='Name'>Name:</label>
+        <input type="text" id="Name" name="Name" />
+    </p>
+        <div class="errorMessages" id="nameError"></div>
+    <p>
+        <label for='Email'>Email:</label>
+        <input type="text" id="Email" name="Email" />
+    </p>
+        <div class="errorMessages" id="emailError"></div>
+    
+    <p>
+        <label for='Comments'>Additional Comments:</label>
+        <input type="text" id="Comments" name="Comments" />
+    </p>
+        <div class="errorMessages" id="commentsError"></div>
     <br>
     <input type="submit" name="Submit" value="Submit" />
   </form>
+            
   </body>
 </html>
