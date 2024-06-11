@@ -44,16 +44,21 @@ a {
  color: #ffffff; 
 }
 div a {
-  font-size: 16pt;
+  height: 44pt;
+  width: auto;
   text-decoration: none;
   font-color:#ffffff;
   margin-left: 2.5%;
   margin-right:2.5%;
 }
 div a:link {
+  height: 44pt;
+  width: auto;
   font-color:#ffffff;
 }
 div a:visited {
+  height: 44pt;
+  width: auto;
   font-color:#ffffff;
 }
 div a:hover {
