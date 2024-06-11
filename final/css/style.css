@@ -5,6 +5,7 @@ body {
  font-family: "Ubuntu", ubuntu-regular, sans-serif; 
  font-weight: normal; 
  font-style: normal; 
+ z-index: 1;
 }
 .column {
   float: left;
@@ -30,6 +31,7 @@ height: auto;
   margin-left: 0pt;
   margin-right: 0pt;
  margin-bottom: 10pt;
+ z-index: 1;
 }
 a {
  color: #ffffff; 
