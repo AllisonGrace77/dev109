@@ -20,7 +20,8 @@ max-width: 80%;
 height: auto;
 }
 #menu{
-  position: fixed;
+  position: relative;
+ top: 100pt;
   left:0;
   background-color:#6F4E37;
   font-family: ubuntu-regular, "Ubuntu", sans-serif; 
@@ -33,7 +34,7 @@ height: auto;
  z-index: 1;
 }
 #filler{
- height: 20pt;
+ height: 0pt;
 }
 a {
  color: #ffffff; 
