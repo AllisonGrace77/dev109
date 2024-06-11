@@ -1,6 +1,62 @@
 body {
-    margin: 0;
+ background-image: url("/dev109/midterm/images/retroLines2.jpg");
+ background-color:#F0D5E3;
+ background-size: 100%, auto;
+ font-family: "Ubuntu", ubuntu-regular, sans-serif; 
+ font-weight: normal; 
+ font-style: normal; 
 }
+.column {
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+.validator {
+max-width: 80%;
+height: auto;
+}
+#menu{
+  position: fixed;
+  left:0pt;
+  background-color:#6F4E37;
+  font-family: ubuntu-regular, "Ubuntu", sans-serif; 
+  width: 105%;
+  font-color: #ffffff;
+  padding: 5pt;
+  padding-left: 50pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+}
+a {
+ color: #ffffff; 
+}
+div a {
+  font-size: 16pt;
+  text-decoration: none;
+  font-color:#ffffff;
+  margin-right:5%;
+}
+div a:link {
+  font-color:#ffffff;
+}
+div a:visited {
+  font-color:#ffffff;
+}
+div a:hover {
+  font-color:#ffffff;
+  text-decoration: underline;
+}
+.blueLink{
+  color: #0000ee;
+}
+h1{
+  font-color:#ffffff;
+}
+
+
 .ubuntu-light {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
@@ -47,59 +103,4 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   font-style: italic;
-}
-body {
- background-image: url("/dev109/midterm/images/retroLines2.jpg");
- background-color:#F0D5E3;
-background-size: 100%, auto;
- font-family: "Ubuntu", ubuntu-regular, sans-serif; 
- font-weight: normal; 
- font-style: normal; 
-}
-.column {
-  float: left;
-  width: 50%;
-  height: 100%;
-  overflow-y:scroll;
-  overflow-x: hidden;
-  position: relative;
-}
-.validator {
-max-width: 80%;
-height: auto;
-}
-#menu{
-  background-color:#6F4E37;
-  font-family: ubuntu-regular, "Ubuntu", sans-serif; 
-  width: 110%;
-  font-color: #ffffff;
-  padding: 5pt;
-  padding-left: 50pt;
-  margin-left: 0pt;
-  margin-right: 0pt;
-}
-a {
- color: #ffffff; 
-}
-div a {
-  font-size: 16pt;
-  text-decoration: none;
-  font-color:#ffffff;
-  margin-right:5%;
-}
-div a:link {
-  font-color:#ffffff;
-}
-div a:visited {
-  font-color:#ffffff;
-}
-div a:hover {
-  font-color:#ffffff;
-  text-decoration: underline;
-}
-.blueLink{
-  color: #0000ee;
-}
-h1{
-  font-color:#ffffff;
 }
