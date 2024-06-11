@@ -80,6 +80,7 @@ a {
 div a {
   text-decoration: none;
   font-color:#ffffff;
+  margin-right:5%;
 }
 div a:link {
   font-color:#ffffff;
