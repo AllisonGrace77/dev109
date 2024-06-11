@@ -42,7 +42,8 @@ div a {
   font-size: 16pt;
   text-decoration: none;
   font-color:#ffffff;
-  margin-right:5%;
+  margin-left: 2.5%;
+  margin-right:2.5%;
 }
 div a:link {
   font-color:#ffffff;
