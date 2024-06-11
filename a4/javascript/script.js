@@ -119,7 +119,7 @@ function phone(){
     var errorMessage = "";
 
     //3) do the validation
-     if (phone==="null" || phone==="" || phone.length > 15 || firstname.length < 10 ) {
+     if (phone==="null" || phone==="" || phone.length > 15 || phone.length < 10 ) {
         errorMessage += "<p>The phone number is required and cannot be under 10 or over 15 charachters</p>";
         console.log("Phone is invalid — length"); } 
      else if (phone.match("^[0-9]+$")===null) {
