@@ -20,7 +20,7 @@ height: auto;
 }
 #menu{
   position: fixed;
-  left:0pt;
+  left:0;
   background-color:#6F4E37;
   font-family: ubuntu-regular, "Ubuntu", sans-serif; 
   width: 105%;
