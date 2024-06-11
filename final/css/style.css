@@ -15,7 +15,7 @@ body {
   overflow-x: hidden;
   position: relative;
 }
-.ghibli{
+#ghibli{
  width: 40%;
  height:auto;
  float:left;
@@ -37,6 +37,7 @@ height: auto;
  z-index: 1;
 }
 #filler{
+ position: fixed;
  height: 0pt;
 }
 a {
