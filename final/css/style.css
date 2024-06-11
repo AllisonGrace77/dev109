@@ -91,6 +91,9 @@ div a:hover {
   font-color:#ffffff;
   text-decoration: underline;
 }
+.blueLink{
+  color: #0000ee;
+}
 h1{
   font-color:#ffffff;
 }
