@@ -20,6 +20,7 @@ body {
 }
 #homeText{
  width:60%;
+ align: left;
 }
 #homeGif{
  float:right;
