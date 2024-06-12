@@ -41,6 +41,7 @@ max-width: 80%;
 height: auto;
 }
 #menu{
+ font-stretch: expanded;
   position: relative;
   left:-15pt;
   background-color:#6F4E37;
