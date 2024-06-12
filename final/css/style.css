@@ -38,7 +38,7 @@ height: auto;
   background-color:#6F4E37;
   font-family: ubuntu-regular, "Ubuntu", sans-serif; 
   width: 105%;
-  font-color: #ffffff;
+  color: #ffffff;
   padding: 5pt;
   margin-left: 0pt;
   margin-right: 0pt;
@@ -54,29 +54,29 @@ a {
 div a {
   font-size:30pt;
   text-decoration: none;
-  font-color:#ffffff;
+  color:#ffffff;
   margin-left: 1%;
   margin-right:1%;
 }
 div a:link {
   height: 44pt;
   width: auto;
-  font-color:#ffffff;
+  color:#ffffff;
 }
 div a:visited {
   height: 44pt;
   width: auto;
-  font-color:#ffffff;
+  color:#ffffff;
 }
 div a:hover {
-  font-color:#ffffff;
+  color:#ffffff;
   text-decoration: underline;
 }
 .blueLink{
   color: #0000ee;
 }
 h1{
-  font-color:#ffffff;
+  color:#ffffff;
  /*background-color: #FAECD2;*/
 }
 .errorMessages{
