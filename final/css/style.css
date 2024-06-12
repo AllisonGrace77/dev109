@@ -8,6 +8,7 @@ body {
  line-height: 24pt;
  margin-left: 15pt;
  margin-right: 15pt;
+ overflow-x: hidden;
  z-index: 1;
 }
 .column {
