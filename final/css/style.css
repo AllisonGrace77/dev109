@@ -6,6 +6,8 @@ body {
  font-weight: normal; 
  font-style: normal; 
  line-height: 24pt;
+ margin-left: 15pt;
+ margin-right: 15pt;
  z-index: 1;
 }
 .column {
