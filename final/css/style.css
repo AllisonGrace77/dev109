@@ -41,12 +41,12 @@ height: auto;
 }
 #menu{
   position: relative;
-  left:-10pt;
+  left:-15pt;
   background-color:#6F4E37;
   font-family: ubuntu-regular, "Ubuntu", sans-serif; 
   width: 105%;
   color: #ffffff;
-  padding: 8pt;
+  padding: 5pt;
   margin-left: 0pt;
   margin-right: 0pt;
  z-index: 1;
