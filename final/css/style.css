@@ -27,6 +27,7 @@ body {
 .artifactPics{
  width:150pt;
  height: auto;
+ margin-bottom: 0pt;
 }
 #ghibli{
  width: 40%;
