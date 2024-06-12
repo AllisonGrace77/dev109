@@ -18,6 +18,9 @@ body {
   overflow-x: hidden;
   position: relative;
 }
+#giphyLink{
+ clear: right;
+}
 #homeText{
  width:50%;
  float:left;
