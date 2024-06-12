@@ -5,7 +5,7 @@ body {
  font-family: "Ubuntu", ubuntu-regular, sans-serif; 
  font-weight: normal; 
  font-style: normal;  
- line-height: 24pt;
+ line-height: 20pt;
  margin-left: 15pt;
  margin-right: 15pt;
  overflow-x: hidden;
@@ -55,7 +55,8 @@ height: auto;
   font-family: ubuntu-regular, "Ubuntu", sans-serif; 
   width: 105%;
   color: #ffffff;
- font-size: 24pt;
+ font-size: 20pt;
+ line-height:1.5;
   padding: 2pt;
   margin-left: 0pt;
   margin-right: 0pt;
