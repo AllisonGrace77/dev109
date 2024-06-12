@@ -19,6 +19,9 @@ body {
   overflow-x: hidden;
   position: relative;
 }
+#totoro{
+ float:right;
+}
 #giphyLink{
  clear: right;
 }
