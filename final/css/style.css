@@ -51,10 +51,6 @@ height: auto;
   margin-right: 0pt;
  z-index: 1;
 }
-#filler{
- position: fixed;
- height: 0pt;
-}
 a {
  color: #ffffff; 
 }
