@@ -18,6 +18,12 @@ body {
   overflow-x: hidden;
   position: relative;
 }
+#homeText{
+ width:60%;
+}
+#homeGif{
+ float:right;
+}
 .artifactPics{
  width:150pt;
  height: auto;
